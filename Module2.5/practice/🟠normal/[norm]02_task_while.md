@@ -16,7 +16,16 @@
 ### Решение задачи
 
 ```python
-# TODO: you code here...
+n = 0
+positive_numbers = 0
+
+while n != 'стоп':
+    n = input('Введите целое число или "стоп": ')
+    if n != 'стоп':
+        if int(n) >= 0:
+            positive_numbers += 1
+
+print('Количество положительных чисел:', positive_numbers)
 ```
 
 ---
