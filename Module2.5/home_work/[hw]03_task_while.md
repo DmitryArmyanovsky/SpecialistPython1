@@ -28,7 +28,20 @@ n = 5
 ### Решение задачи
 
 ```python
-# TODO: you code here...
+n = int(input('n: '))
+
+curr_line = 1
+
+while curr_line <= n:
+    line_content = ''
+    cursor = 1
+
+    while cursor <= n:
+        line_content = line_content + '\t' + str(cursor * curr_line)
+        cursor += 1
+
+    print(line_content)
+    curr_line += 1
 ```
 
 ---
