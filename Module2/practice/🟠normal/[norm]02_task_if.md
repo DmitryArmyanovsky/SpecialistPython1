@@ -15,7 +15,9 @@
 ### Решение задачи
 
 ```python
-# TODO: you code here...
+number = int(input('Число: '))
+
+print('Нет' if number < 100 else 'Да')
 ```
 
 ---
