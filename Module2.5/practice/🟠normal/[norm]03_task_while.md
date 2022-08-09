@@ -20,7 +20,16 @@
 ### Решение задачи
 
 ```python
-# TODO: you code here...
+levels = int(input('Количество уровней пирамиды: '))
+
+level = 1
+result = 0
+
+while level <= levels:
+    result += level * level
+    level += 1
+    
+print(result)
 ```
 
 ---
