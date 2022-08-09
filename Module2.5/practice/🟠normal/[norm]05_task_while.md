@@ -16,7 +16,22 @@
 ### Решение задачи
 
 ```python
-# TODO: you code here...
+n = int(input('n: '))
+
+current_number = 2
+
+dividers = ''
+
+while current_number < n:
+    if n % current_number == 0:
+        dividers = dividers + ' ' + str(current_number)
+    current_number += 1
+
+if not dividers:
+    print('Число простое')
+else:
+    print(dividers)
+
 ```
 
 ---
